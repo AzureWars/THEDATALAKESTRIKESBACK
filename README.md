@@ -11,11 +11,11 @@ You will be moving files from source systems into the Data management platform e
 Start:
   -	An Azure Resource Group for the Data Management Platform 
   -	An Azure Resource Group for the US BI department 
-  -	An Azure Resource Group for the AsiaPacific ML department
+  -	An Azure Resource Group for the Data Science department
   
 Requirements:
  -	The files on the Azure Data Lake store has to be time partitioned
- -	The US BI department isn’t allowed to look into the AsiaPacific data, and the other way around
+ -	The US BI department isn’t allowed to look into the Data Science data, and the other way around
  
  #### Prep Guide:
 In order to start download two dimension and two fact flat files from the repository and place them on a blob. This will be your starting point for the excersice. 
@@ -25,9 +25,10 @@ In order to start download two dimension and two fact flat files from the reposi
 a.	Azure Data Lake Storage, for example: ADLS-DMAP 
 b.	Azure Data Factory V2, for example: ADF-DMAP
 c.	Storage account, for example: STA-DMAP
-3.	Within the department resource groups, add the following components:
-  a.	Azure Data Factory V2, for example: ADF-USBI / ADF-APML
-  b.	SQL Server Database, for example: SSR- USBI / SSR-APML
+3.	Within the department resource groups, add the following components, if applicable:
+  a.	Azure Data Factory V2, for example: ADF-USBI
+  b.	SQL Server Database, for example: SSR- USBI
+  c.	Databricks, for example: DBR-DS
 
  #### DMAP Guide:
 1.	Within the storage account, create a container. 
@@ -40,4 +41,3 @@ c.	Storage account, for example: STA-DMAP
 1.	Connect with the appropriate component to the DMAP Data Lake, where the files reside 
 2.	Move the files from the DMAP Data Lake to your own apartment 
 3.	Query the data 
-4.	Optional: Visualize the data in PowerBI? 
