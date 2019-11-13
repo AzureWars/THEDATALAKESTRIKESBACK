@@ -18,6 +18,8 @@ Requirements:
  -	The US BI department isn’t allowed to look into the AsiaPacific data, and the other way around
  
  #### Prep Guide:
+In order to start download two dimension and two fact flat files from the repository and place them on a blob. This will be your starting point for the excersice. 
+
 1.	Create three resource groups, and name them what you want. Keep in mind, it has to be clear which of them is the Data Management         Platform resource group
 2.	Within the Data Management Platform resource group, add the following components and give them appropriate names:
 a.	Azure Data Lake Storage, for example: ADLS-DMAP 
