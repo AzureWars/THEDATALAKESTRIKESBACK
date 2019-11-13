@@ -6,7 +6,7 @@
 #### Goal: Setup a Data Management Platform
 The goal of the excersise is to setup a Data Management Platform as fast as possible. You will do this in two or three teams that will fight for glory on the battlefield.
 
-You will be moving files from source systems into the Data management platform en will make these files available for different departments. To defend your honor and crush the spirits of your enemey you will need to work as a team to complete this challenge! This is a good day to day, go forht and conquer!
+You will be moving files from source systems into the Data management platform en will make these files available for different departments. To defend your honor and crush the spirits of your enemey you will need to work as a team to complete this challenge! This is a good day to die, go forht and conquer!
 
 Start:
   -	An Azure Resource Group for the Data Management Platform 
