@@ -15,12 +15,14 @@ Requirements:
  -	The US BI department isn’t allowed to look into the AsiaPacific data, and the other way around
  
  #### Prep Guide:
-1.	Create three resource groups, and name them what you want. Keep in mind, it has to be clear which of them is the Data Management           Platform resource group
+1.	Create three resource groups, and name them what you want. Keep in mind, it has to be clear which of them is the Data Management         Platform resource group
 2.	Within the Data Management Platform resource group, add the following components and give them appropriate names:
+
   a.	Azure Data Lake Storage, for example: ADLS-DMAP 
   b.	Azure Data Factory V2, for example: ADF-DMAP
   c.	Storage account, for example: STA-DMAP
 3.	Within the department resource groups, add the following components:
+
   a.	Azure Data Factory V2, for example: ADF-USBI / ADF-APML
   b.	SQL Server Database, for example: SSR- USBI / SSR-APML
 
